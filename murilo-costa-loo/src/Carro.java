@@ -11,6 +11,13 @@ public class Carro {
         this.ano = ano;
     }
 
+    // Construtor da classe Carro
+    public Carro(String modelo, int ano) {
+        String modeloString = " feita com o Construtor personalizado";
+        this.modelo = modelo + modeloString;
+        this.ano = ano;
+    }
+
     // Métodos getter para acessar os atributos
     public String getMarca() {
         return marca;
